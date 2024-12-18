@@ -1,4 +1,4 @@
-obj-m += tsu_module.o
+obj-m += tsulab.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
